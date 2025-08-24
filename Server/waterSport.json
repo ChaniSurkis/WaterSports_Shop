@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "משקפת שחייה מקצועית",
+    "category": "שחייה",
+    "price": 89.9,
+    "description": "משקפת עמידה במים עם הגנה מקרני UV",
+    "image": "swimming_goggles.png",
+    "stock": 50
+  },
+  {
+    "id": 2,
+    "name": "כובע ים סיליקון",
+    "category": "שחייה",
+    "price": 29,
+    "description": "כובע איכותי ונוח להגנה על השיער",
+    "image": "swim_cap.png",
+    "stock": 80
+  },
+  {
+    "id": 3,
+    "name": "סנפירי אימון",
+    "category": "שחייה",
+    "price": 119,
+    "description": "סנפירים קלים לאימון סיבולת",
+    "image": "swim_fins.png",
+    "stock": 60
+  },
+  {
+    "id": 4,
+    "name": "קרש שחייה",
+    "category": "שחייה",
+    "price": 39.9,
+    "description": "קרש תמיכה לאימוני שחייה",
+    "image": "swim_board.png",
+    "stock": 40
+  },
+  {
+    "id": 5,
+    "name": "שעון שחייה עמיד במים",
+    "category": "שחייה",
+    "price": 299,
+    "description": "שעון דיגיטלי עם מד מרחק וזמן לשחיינים מקצועיים",
+    "image": "swimming_watch.png",
+    "stock": 25
+  },
+  {
+    "id": 7,
+    "name": "מערכת תקשורת  ",
+    "category": "צלילה",
+    "price": 1200,
+    "description": "מערכת לתקשורת אלחוטית בין צוללנים תחת מים בטווח של עד 50 מטר.",
+    "image": "diving.png",
+    "stock": 5
+  },
+  {
+    "id": 8,
+    "name": "מד עומק דיגיטלי",
+    "category": "צלילה",
+    "price": 750,
+    "description": "מד מדויק לצולל המתחיל והמקצוען",
+    "image": "depth_meter.png",
+    "stock": 25
+  },
+  {
+    "id": 9,
+    "name": "כפפות צלילה Neoprene",
+    "category": "צלילה",
+    "price": 59.9,
+    "description": "כפפות מבודדות לשמירה על חום הידיים במים קרים",
+    "image": "diving_gloves.png",
+    "stock": 50
+  },
+  {
+    "id": 10,
+    "name": "משקפת צלילה מקצועית",
+    "category": "צלילה",
+    "price": 199,
+    "description": "משקפת איכותית עם עדשות נגד ערפל ופריים חזק",
+    "image": "pro_diving_mask.png",
+    "stock": 25
+  },
+  {
+    "id": 11,
+    "name": "גלשן גלים קצר",
+    "category": "גלישה",
+    "price": 599,
+    "description": "גלשן אידיאלי לגלים גבוהים",
+    "image": "short_surfboard.png",
+    "stock": 15
+  },
+  {
+    "id": 12,
+    "name": "רצועה לגלשן",
+    "category": "גלישה",
+    "price": 45,
+    "description": "רצועה אלסטית איכותית לקרסול",
+    "image": "board_leash.png",
+    "stock": 60
+  },
+  {
+    "id": 13,
+    "name": "שעווה לגלשן",
+    "category": "גלישה",
+    "price": 15,
+    "description": "משפרת אחיזה על הגלשן",
+    "image": "surf_wax.png",
+    "stock": 90
+  },
+  {
+    "id": 14,
+    "name": "חליפת גלישה קצרה לילדים",
+    "category": "גלישה",
+    "price": 179,
+    "description": "חליפת גלישה נוחה וגמישה לילדים",
+    "image": "kids_surf_suit.png",
+    "stock": 40
+  },
+  {
+    "id": 15,
+    "name": "חבל לגרירה",
+    "category": "גלישה",
+    "price": 129,
+    "description": "חבל מקצועי לגרירה מאופנוע ים",
+    "image": "tow_rope.png",
+    "stock": 45
+  },
+  {
+    "id": 16,
+    "name": "כפפות שחייה לאימון",
+    "category": "שחייה",
+    "price": 59,
+    "description": "כפפות עם התנגדות להגדלת העומס באימון",
+    "image": "swim_training_gloves.png",
+    "stock": 40
+  },
+  {
+    "id": 18,
+    "name": "מזרן חוף מתנפח",
+    "category": "חוף",
+    "price": 79,
+    "description": "מזרן חוף עמיד עם שסתום מהיר לניפוח",
+    "image": "beach_mattress.png",
+    "stock": 35
+  },
+  {
+    "id": 19,
+    "name": "צידנית ניידת",
+    "category": "חוף",
+    "price": 149,
+    "description": "צידנית שומרת קור ליום שלם בחוף",
+    "image": "cooler_box.png",
+    "stock": 25
+  },
+  {
+    "id": 20,
+    "name": "מטריית חוף מתקפלת",
+    "category": "חוף",
+    "price": 99,
+    "description": "מטרייה עם מסנן UV והתקנה פשוטה",
+    "image": "beach_umbrella.png",
+    "stock": 20
+  },
+  {
+    "id": 21,
+    "name": "חגורת הצלה",
+    "category": "בטיחות",
+    "price": 220,
+    "description": "חגורה עם פלוטציות מובנות להצלה במים",
+    "image": "life_jacket.png",
+    "stock": 30
+  },
+  {
+    "id": 22,
+    "name": "משחה נגד זיהום",
+    "category": "בטיחות",
+    "price": 22.5,
+    "description": "משחה להגנה על העור מפני זיהומים במים",
+    "image": "anti_infection_cream.png",
+    "stock": 60
+  },
+  {
+    "id": 23,
+    "name": "ערכת עזרה ראשונה לחוף",
+    "category": "בטיחות",
+    "price": 89,
+    "description": "ערכת חירום קומפקטית למים ולחוף",
+    "image": "first_aid_kit.png",
+    "stock": 15
+  },
+  {
+    "id": 24,
+    "name": "שרוך ביטחון למשקפת",
+    "category": "בטיחות",
+    "price": 12.9,
+    "description": "מונע אובדן של משקפת במים",
+    "image": "goggle_strap.png",
+    "stock": 80
+  },
+  {
+    "id": 25,
+    "name": "שרוול זוהר לצלילה",
+    "category": "בטיחות",
+    "price": 34,
+    "description": "מקל זוהר לזיהוי קל מתחת למים",
+    "image": "diving_glow_stick.png",
+    "stock": 100
+  },
+  {
+    "id": 26,
+    "name": "משחק מטקות איכותי",
+    "category": "חוף",
+    "price": 89,
+    "description": "כולל שתי מטקות וכדור איכותי למשחק חופים",
+    "image": "beach_paddle_game.png",
+    "stock": 70
+  },
+  {
+    "id": 27,
+    "name": "אוהל חוף קל להקמה",
+    "category": "חוף",
+    "price": 189,
+    "description": "אוהל קומפקטי עם הגנה מהשמש והרוח",
+    "image": "beach_tent.png",
+    "stock": 25
+  },
+  {
+    "id": 28,
+    "name": "כיסא חוף מתקפל",
+    "category": "חוף",
+    "price": 119,
+    "description": "כיסא קל משקל עם גב מתכוונן ונשיאה נוחה",
+    "image": "beach_chair2.png",
+    "stock": 50
+  },
+  {
+    "id": 29,
+    "name": "תיק גב לגלשן",
+    "category": "גלישה",
+    "price": 149,
+    "description": "תיק נוח לנשיאת גלשן וציוד ימי",
+    "image": "surfboard_backpack.png",
+    "stock": 20
+  },
+  {
+    "id": 30,
+    "name": "כפפות אחיזה לגלישה",
+    "category": "גלישה",
+    "price": 69,
+    "description": "כפפות עמידות המספקות אחיזה מצוינת בגלשן",
+    "image": "surf_grip_gloves.png",
+    "stock": 40
+  },
+  {
+    "id": 31,
+    "name": "מחשב צלילה דיגיטלי",
+    "category": "צלילה",
+    "price": 899,
+    "description": "מודד עומק, טמפרטורה, וזמן צלילה עם תצוגה מוארת",
+    "image": "diving_computer.png",
+    "stock": 10
+  },
+  {
+    "id": 32,
+    "name": "מצופים  לילדים",
+    "category": "שחייה",
+    "price": 19,
+    "description": "זוג מצופים מנופחים המתאימים ללימוד שחייה",
+    "image": "ids_swim_armbands.png",
+    "stock": 80
+  }
+]

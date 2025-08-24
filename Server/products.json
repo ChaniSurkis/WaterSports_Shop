@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "name": "חלב",
+        "description": "חלב מפוסטר 3%",
+        "imgUrl": "",
+        "content": "100 גרם",
+        "price": 5.2,
+        "isCooling": true,
+        "company": "טרה",
+        "prodDate": "10-10-2022"
+    },
+    {
+        "id": 3,
+        "name": "לחם",
+        "description": "לחם אחיד פרוס",
+        "imgUrl": "",
+        "content": "750 גרם",
+        "price": 6.2,
+        "isCooling": false,
+        "company": "אנג'ל",
+        "prodDate": "10-10-2022"
+    },
+    {
+        "id": 3,
+        "name": "גבינה",
+        "description": "גבינה 5%",
+        "imgUrl": "",
+        "content": "500 גרם",
+        "price": 7.2,
+        "isCooling": true,
+        "company": "תנובה",
+        "prodDate": "5-5-2022"
+    },
+    {
+        "id": 3,
+        "name": "במבה",
+        "description": "חטיף בןטנים",
+        "imgUrl": "",
+        "content": "80 גרם",
+        "price": 7.2,
+        "isCooling": false,
+        "company": "אסם",
+        "prodDate": "5-5-2022"
+    },
+    {
+        "id": 3,
+        "name": "קוטג",
+        "description": "לחם אחיד פרוס",
+        "imgUrl": "",
+        "content": "750 גרם",
+        "price": 6.2,
+        "isCooling": false,
+        "company": "אנג'ל",
+        "prodDate": "10-10-2022"
+    },
+    {
+        "name": "חמצוצים",
+        "description": "לחם אחיד פרוס",
+        "imgUrl": "",
+        "content": "750 גרם",
+        "price": 6.2,
+        "isCooling": false,
+        "company": "אנג'ל",
+        "prodDate": "10-10-2022"
+    },
+    {
+        "name": "שוקולד",
+        "description": "לחם אחיד פרוס",
+        "imgUrl": "",
+        "content": "750 גרם",
+        "price": 6.2,
+        "isCooling": false,
+        "company": "אנג'ל",
+        "prodDate": "10-10-2022"
+    }
+]
