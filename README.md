@@ -1,0 +1,5 @@
+WaterSports Shop – E-commerce Platform
+React · Node.js · MUI · Redux · MongoDB
+•	Built an e-commerce platform with user management and shopping cart functionality.
+•	Implemented advanced navigation using React Router and state management with Redux Toolkit.
+•	Developed UI components with Material UI and integrated backend logic with Node.js
