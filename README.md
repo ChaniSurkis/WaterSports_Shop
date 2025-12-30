@@ -4,7 +4,7 @@
 WaterSports Shop is a full-stack e-commerce web application for selling water sports products.  
 The project includes both client-side and admin functionality, simulating a real commercial online store.
 
-🚧 **This project is currently under active development.**
+**This project is currently under active development.**
 
 ---
 
