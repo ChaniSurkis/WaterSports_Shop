@@ -68,7 +68,7 @@ export default function Footer() {
           </IconButton>
         </Box>
         <Typography variant="caption" sx={{ mt: 0.5, userSelect: "none" }}>
-          © {new Date().getFullYear()} SeaSports, כל הזכויות שמורות.
+          © {new Date().getFullYear()} SeaSports, כל הזכויות שמורות!!!!!.
         </Typography>
       </Box>
     </Box>
