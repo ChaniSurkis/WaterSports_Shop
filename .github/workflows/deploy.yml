@@ -1,0 +1,39 @@
+name: Deploy to EC2
+
+on:
+  push:
+    branches:
+      - test
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      
+
+      - name: Deploy to EC2
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            cd /home/ec2-user/WaterSports_Shop
+            git pull origin test
+            
+            # Server install
+            cd server
+            npm install
+            
+            # Restart server
+            sudo systemctl restart node-service
+            
+            # Build client
+            cd ../client
+            npm install
+            npm run build
+            
+            # Copy build to nginx
+            sudo rm -rf /var/www/html/*
+            sudo cp -r dist/* /var/www/html/
