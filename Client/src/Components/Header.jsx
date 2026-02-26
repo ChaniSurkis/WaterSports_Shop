@@ -18,7 +18,7 @@ export default function Header() {
   const currentUserStatus = useSelector((state) => state.userReducer.status);
   const cartItemsCount = useSelector((state) => state.cartReducer.cartItems?.length || 0);
 
-  const categories = ["צלילה", "שחייה", "גלישה", "חוף",  "שונות"];
+  const categories = ["צלילה", "שחייה", "גלישה", "חוף"];
 
   const handleLoginClick = () => {
     if (currentUserStatus === "loggedIn") {
