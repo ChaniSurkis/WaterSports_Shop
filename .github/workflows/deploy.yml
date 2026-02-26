@@ -23,14 +23,14 @@ jobs:
             git pull origin test
             
             # Server install
-            cd server
+            cd Server
             npm install
             
             # Restart server
             sudo systemctl restart node-service
             
             # Build client
-            cd ../client
+            cd ../Client
             npm install
             npm run build
             
