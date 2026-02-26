@@ -18,44 +18,57 @@ export default function Footer() {
         width: "100vw",
         bgcolor: "#1976d2",
         color: "#bbdefb",
-        py: 1.5,
-        px: 4,
+        py: 2,
+        px: 6,
         display: "flex",
         flexDirection: { xs: "column", md: "row" },
         alignItems: "center",
         justifyContent: "space-between",
-        fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-        fontWeight: "700",
         boxShadow: "0 -3px 10px rgba(0,0,0,0.3)",
         zIndex: 1300,
         userSelect: "none",
         direction: "rtl",
+        gap: { xs: 1.5, md: 0 }
       }}
     >
-      {/* לוגו ושם - צד ימין */}
-      <Box sx={{ display: "flex", alignItems: "center", mb: { xs: 1, md: 0 }, cursor: "default" }}>
-        <SailingIcon sx={{ ml: 1, fontSize: 30, color: "#90caf9" }} />
-        <Typography variant="h6" component="div">
+      {/* לוגו */}
+      <Box
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          gap: 1,
+          minWidth: { md: "200px" },
+          justifyContent: { xs: "center", md: "flex-start" }
+        }}
+      >
+        <SailingIcon sx={{ fontSize: 30, color: "#90caf9" }} />
+        <Typography variant="h6">
           SeaSports
         </Typography>
       </Box>
 
-      {/* טקסט במרכז */}
+      {/* טקסט מרכזי */}
       <Typography
         variant="body2"
         sx={{
-          flexGrow: 1,
           textAlign: "center",
-          fontWeight: "600",
-          letterSpacing: 0.5,
-          userSelect: "none",
+          flexGrow: 1,
+          fontWeight: 600,
+          letterSpacing: 0.5
         }}
       >
         הכל לספורט הימי במקום אחד
       </Typography>
 
-      {/* אייקוני מדיה חברתית וזכויות יוצרים - צד שמאל */}
-      <Box sx={{ display: "flex", flexDirection: "column", alignItems: "flex-start", mt: { xs: 1, md: 0 } }}>
+      {/* אייקונים + זכויות */}
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: { xs: "center", md: "flex-end" },
+          minWidth: { md: "200px" }
+        }}
+      >
         <Box>
           <IconButton aria-label="facebook" href="#" sx={{ color: "#90caf9" }}>
             <FacebookIcon />
@@ -67,12 +80,11 @@ export default function Footer() {
             <TwitterIcon />
           </IconButton>
         </Box>
-        <Typography variant="caption" sx={{ mt: 0.5, userSelect: "none" }}>
-          © {new Date().getFullYear()} SeaSports,🙏🙏כל הזכויות שמורות.
+
+        <Typography variant="caption" sx={{ mt: 0.5 }}>
+          © {new Date().getFullYear()} SeaSports, כל הזכויות שמורות.
         </Typography>
       </Box>
     </Box>
   );
 }
-// הלוגו מוזז פנימה מהקצה הימני עם pr: 2
-// ריווח צדדי של הפוטר מותאם למסכים קטנים
