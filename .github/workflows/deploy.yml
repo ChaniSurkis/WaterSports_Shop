@@ -19,7 +19,7 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd /home/ec2-user/WaterSports_Shop
+            cd /home/ubuntu/WaterSports_Shop
             git pull origin test
             
             # Server install
