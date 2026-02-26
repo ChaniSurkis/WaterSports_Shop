@@ -28,11 +28,10 @@ export default function LoginForm() {
       dispatch(loginSuccess({ email, name: "Admin", role: "admin" }))
       navigate('/HomePage')
       return
-    }
-    // ===============================
+    }    // ===============================
 
     try {
-      const { data } = await axios.post('http://localhost:4000/user/login', {
+      const { data } = await axios.post('/api/user/login', {
         email,
         password
       })

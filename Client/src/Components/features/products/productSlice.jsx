@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 import axios from 'axios'
 
 export const getAllProducts = createAsyncThunk("get-allProducts", async () => {
-  let { data } = await axios.get("http://localhost:4000/waterSport")
+  let { data } = await axios.get("/api/waterSport")
   console.log(data)
   return data
 })
@@ -10,14 +10,14 @@ export const getAllProducts = createAsyncThunk("get-allProducts", async () => {
 export const deleteProduct = createAsyncThunk(
   "delete-product",
   async (id) => {
-    await axios.delete(`http://localhost:4000/waterSport/${id}`)
+    await axios.delete(`/api/waterSport/${id}`)
     return id
   }
 )
 export const updateProductStock = createAsyncThunk(
   "update-product-stock",
   async ({ productId, quantity }) => {
-    const response = await axios.put(`http://localhost:4000/waterSport/${productId}/${quantity}`)
+    const response = await axios.put(`/api/waterSport/${productId}/${quantity}`)
     return { productId, quantity }
   }
 )

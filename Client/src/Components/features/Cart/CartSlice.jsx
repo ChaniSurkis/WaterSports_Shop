@@ -3,13 +3,13 @@ import axios from 'axios'
 
 // מביא מוצרים לפי userId
 export const getProductsByUserId = createAsyncThunk("getCartByUserId", async (userId) => {
-    const response = await axios.get(`http://localhost:4000/cart/${userId}`);
+    const response = await axios.get(`/api/cart/${userId}`);
     return response.data;
 });
 
 // מוחק מוצר מהסל לפי productId ו־userId
 export const deleteFromCart = createAsyncThunk("deleteFromCart", async ({ productId, userId }) => {
-    const response = await axios.delete(`http://localhost:4000/cart/${userId}/${productId}`);
+    const response = await axios.delete(`/api/cart/${userId}/${productId}`);
     return productId;
 });
 
@@ -17,7 +17,7 @@ export const deleteFromCart = createAsyncThunk("deleteFromCart", async ({ produc
 export const clearCart = createAsyncThunk("clearCart", async ({userId}) => {
     
 
-     await axios.delete(`http://localhost:4000/cart/${userId}`);
+     await axios.delete(`api/cart/${userId}`);
         return userId;
   
 });

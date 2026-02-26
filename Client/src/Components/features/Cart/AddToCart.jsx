@@ -40,7 +40,7 @@ export default function AddToCart() {
 
   const handleSubmit = async () => {
     try {
-      await axios.post("http://localhost:4000/cart", formData);
+      await axios.post("/api/cart", formData);
       setShowSuccess(true);
       setTimeout(() => {
         setShowSuccess(false);

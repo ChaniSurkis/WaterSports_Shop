@@ -53,7 +53,7 @@ const getLabel = () => {
     dispatch(loginStart())
 
     try {
-      const response = await axios.post('http://localhost:4000/user', formData)
+      const response = await axios.post('/api/user', formData)
       dispatch(loginSuccess(response.data))
       alert('המשתמש נרשם בהצלחה!')
       navigate('/')
