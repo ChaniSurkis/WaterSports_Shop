@@ -92,7 +92,7 @@ export default function ProductsByCategory() {
         gutterBottom
         sx={{ color: "#0d47a1", fontWeight: "bold" }}
       >
-        כל  מוצרים בקטגוריה: {categoryName || "הכל"}
+        כל המוצרים בקטגוריה: {categoryName || "הכל"}
       </Typography>
 
       <Grid container spacing={3}>
